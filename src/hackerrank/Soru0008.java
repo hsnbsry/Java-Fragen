@@ -1,6 +1,7 @@
 package hackerrank;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
@@ -13,7 +14,7 @@ public class Soru0008 { public static String getSmallestAndLargest(String s, int
     for(int i=0;i<s.length()-k+1;i++){
         a.add(s.substring(i,i+k));
     }
-    java.util.Collections.sort(a);
+    Collections.sort(a);
     smallest = a.get(0);
     largest = a.get(a.size()-1);
     return smallest + "\n" + largest;

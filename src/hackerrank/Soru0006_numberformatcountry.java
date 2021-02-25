@@ -25,14 +25,11 @@ public class Soru0006_numberformatcountry {
         String korea=objkr.format(payment);
         String rusia=objru.format(payment);
 
-
-
-
-        System.out.println("US: " + us);
-        System.out.println("India: " + india);
-        System.out.println("China: " + china);
-        System.out.println("France: " + france);
-        System.out.println("Korean:"+korea);
-        System.out.println("Rusia:"+rusia);
+        System.out.println("US: " + us);               //US: $25,463,215.00
+        System.out.println("India: " + india);          //India: Rs.25,463,215.00
+        System.out.println("China: " + china);          //China: ￥25,463,215.00
+        System.out.println("France: " + france);        //  France: 25 463  215,00 €
+        System.out.println("Korean:"+korea);            // Korean:￦25,463,215
+        System.out.println("Rusia:"+rusia);             // Rusia:25 463  215 руб.
     }
 }
