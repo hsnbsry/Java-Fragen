@@ -11,6 +11,7 @@ public class Frage00002 {
         System.out.println("Tekrarli characterleri gormek icin bir String giriniz");
         String str = scan.nextLine();
 
+
         tekrarliCharBul(str);
 
     }
